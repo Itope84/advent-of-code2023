@@ -1,17 +1,11 @@
 import java.io.File;
 import java.util.Scanner;
 import java.io.FileNotFoundException;
-// import static org.junit.jupiter.api.Assertions.assertEquals;
-
-// import org.junit.jupiter.api.Test;
 
 class Main {
   public static void main(String[] args) {
-    Day1.getResults(); 
+    // Day1.getResults(); 
+    System.out.println("Day 2 Part 1: " + Day2.getResults());
+    System.out.println("Day 2 Part 2: " + Day2.getResults(true));
   }
-
-  // @Test
-  // void addition() {
-  //     assertEquals(2, 1 + 1);
-  // }
 }
