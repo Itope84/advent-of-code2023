@@ -17,7 +17,7 @@ public class Day1 {
     List<Integer> nums = new ArrayList<>();
 
     try {
-      File inputFile = new File("./day1.txt");
+      File inputFile = new File("./day1/day1.txt");
 
       Scanner reader = new Scanner(inputFile);
       while (reader.hasNextLine()) {

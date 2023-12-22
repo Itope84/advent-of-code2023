@@ -39,7 +39,7 @@ public class Day2 {
     ArrayList<Game> games = new ArrayList<Game>();
 
     try {
-      File inputFile = new File("./day2.txt");
+      File inputFile = new File("./day2/day2.txt");
 
       Scanner reader = new Scanner(inputFile);
       while (reader.hasNextLine()) {

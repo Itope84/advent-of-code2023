@@ -19,7 +19,7 @@ public class Day3 {
         ArrayList<Row> rows = new ArrayList<Row>();
 
         try {
-            File inputFile = new File("./day3.txt");
+            File inputFile = new File("./day3/day3.txt");
 
             Scanner reader = new Scanner(inputFile);
             while (reader.hasNextLine()) {
